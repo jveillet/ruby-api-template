@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+
+    web:
+        build:
+            context: .
+        env_file:
+            - '.env'
+        command:  bundle exec puma -p $PORT
+        volumes:
+            - .:/app
+        ports:
+            - "3000:3000"
+        stdin_open: true
+        tty: true

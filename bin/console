@@ -1,0 +1,13 @@
+#!/usr/bin/env ruby
+
+require_relative '../config/environment'
+
+require 'pry'
+require 'irb'
+
+begin
+  Pry.start
+rescue LoadError => e
+  puts 'Pry is not present on your system, falling back to IRB.'
+  IRB.start
+end

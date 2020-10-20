@@ -1,5 +1,7 @@
 # ruby-api-template
 
+[![Build Status](https://github.com/jveillet/ruby-api-template/workflows/CI/badge.svg)](https://github.com/ruby-api-template/actions)
+
 An API template build with Plain Old Ruby.
 
 This template aims to deliver a small starting point for building a Ruby API:

@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-require 'rake'
-
 namespace :db do
   desc 'DB migration task.'
   task :migrate do

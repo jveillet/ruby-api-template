@@ -3,7 +3,6 @@
 # Setup our test environment
 ENV['RACK_ENV'] = 'test’'
 
-require 'minitest/spec'
 require 'minitest/autorun'
 require 'rack'
 require 'rack/test'

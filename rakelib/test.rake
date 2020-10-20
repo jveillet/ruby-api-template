@@ -1,6 +1,5 @@
 # frozen_string_literal: true
 
-require 'rake'
 require 'rake/testtask'
 
 Rake::TestTask.new(:test) do |t|

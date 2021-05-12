@@ -1,15 +1,15 @@
-FROM ruby:2.6.6
+FROM ruby:2.7.2
 
 # Environment variables
 ENV DEBIAN_FRONTEND noninteractive
 ENV BUNDLE_JOBS=10
-ENV BUNDLER_VERSION=2.1.4
+ENV BUNDLER_VERSION=2.2.17
 
 RUN apt-get update -y \
     && apt-get install -y \
     apt-transport-https
 
-RUN gem install bundler -v 2.1.4
+RUN gem install bundler
 
 RUN mkdir -p /app
 

@@ -31,7 +31,7 @@ boxes that apply: -->
 - [ ] Breaking change (a fix or feature that would cause existing functionality to
   change)
 - [ ] Bug fix (a non-breaking change which fixes an issue)
-- [ ] Maintenance task (such as Documentation, Github templates,..)
+- [ ] Maintenance task (such as Documentation, GitHub templates,..)
 
 ## Checklist
 

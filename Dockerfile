@@ -1,9 +1,9 @@
-FROM ruby:2.7.2
+FROM ruby:3.0.2
 
 # Environment variables
 ENV DEBIAN_FRONTEND noninteractive
 ENV BUNDLE_JOBS=10
-ENV BUNDLER_VERSION=2.2.17
+ENV BUNDLER_VERSION=2.2.22
 
 RUN apt-get update -y \
     && apt-get install -y \

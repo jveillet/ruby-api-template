@@ -7,7 +7,7 @@ module Middlewares
   class Logging
     def initialize(app)
       @app = app
-      @logger = Logger.new(STDOUT)
+      @logger = Logger.new($stdout)
     end
 
     def call(env)

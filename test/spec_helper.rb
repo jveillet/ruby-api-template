@@ -9,8 +9,6 @@ require 'rack/test'
 
 OUTER_APP = Rack::Builder.parse_file('config.ru').first
 
-include Rack::Test::Methods
-
 def app
   OUTER_APP
 end

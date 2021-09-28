@@ -1,11 +1,25 @@
 # frozen_string_literal: true
 
-require_relative '../spec_helper.rb'
+require_relative '../spec_helper'
 
 describe PingController do
+  include Rack::Test::Methods
+
   it 'respond with a 200 status' do
     get '/api/v1/ping'
     assert last_response.ok?
+  end
+
+  it 'respond with a status' do
+    get '/api/v1/ping'
+    response = JSON.parse(last_response.body)
+    assert(response.key?('status'))
+  end
+
+  it 'has a status 200 in the body' do
+    get '/api/v1/ping'
+    response = JSON.parse(last_response.body)
+    assert(response['status'] == 200)
   end
 
   it 'respond with a message' do

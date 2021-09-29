@@ -41,7 +41,7 @@ group :development, :test do
   # Pry is a runtime developer console and IRB alternative with powerful introspection capabilities.
   gem 'pry', '~> 0.14.1'
   gem 'rubocop', '~> 1.21.0'
-  gem 'rubocop-performance', '~> 1.6', '>= 1.6.1', require: false
+  gem 'rubocop-performance', '~> 1.11', require: false
 end
 
 group :test do

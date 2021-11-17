@@ -15,7 +15,7 @@ gem 'grape', '~> 1.4'
 gem 'grape-entity', '~> 0.10.0'
 
 # Add auto generated documentation to your Grape API that can be displayed with Swagger.
-gem 'grape-swagger', '~> 1.3'
+gem 'grape-swagger', '~> 1.4'
 
 # Grape swagger adapter to support grape-entity object parsing
 gem 'grape-swagger-entity', '~> 0.5.1'

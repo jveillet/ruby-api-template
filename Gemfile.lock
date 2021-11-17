@@ -31,7 +31,7 @@ GEM
       dry-core (~> 0.5, >= 0.5)
       dry-inflector (~> 0.1, >= 0.1.2)
       dry-logic (~> 1.0, >= 1.0.2)
-    grape (1.5.3)
+    grape (1.6.0)
       activesupport
       builder
       dry-types (>= 1.1)
@@ -102,7 +102,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   dotenv (~> 2.7, >= 2.7.6)
-  grape (~> 1.4)
+  grape (~> 1.6)
   grape-entity (~> 0.10.1)
   grape-swagger (~> 1.4)
   grape-swagger-entity (~> 0.5.1)

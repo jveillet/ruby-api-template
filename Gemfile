@@ -9,7 +9,7 @@ ruby '3.0.2'
 gem 'dotenv', '~> 2.7', '>= 2.7.6'
 
 # A Ruby framework for rapid API development with great conventions.
-gem 'grape', '~> 1.4'
+gem 'grape', '~> 1.6'
 
 # Extracted from Grape, A Ruby framework for rapid API development with great conventions.
 gem 'grape-entity', '~> 0.10.1'

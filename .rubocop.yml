@@ -5,6 +5,7 @@ AllCops:
         - 'node_modules/**/*'
         - 'vendor/**/*'
         - 'bin/**/*'
+    NewCops: enable
 
 Layout/LineLength:
     Max: 120

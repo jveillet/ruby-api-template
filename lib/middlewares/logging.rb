@@ -55,7 +55,7 @@ module Middlewares
     end
 
     def response_json?(headers)
-      headers['Content-Type'] =~ %r{application/json}
+      headers['Content-Type'].include? 'application/json'
     end
   end
 end

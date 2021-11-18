@@ -12,7 +12,8 @@ use Rack::Cors do
     origins '*'
     resource '/api/v1/*',
              headers: :any,
-             methods: %i[get post delete put patch options head]
+             methods: %i[get post delete put patch options head],
+             expose: %i[X-Requested-With Content-Type Accept Origin Authorization X-Request-Id]
   end
 end
 

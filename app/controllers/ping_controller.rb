@@ -9,8 +9,18 @@ class PingController < ApplicationController
     detail ''
     success [{ code: 200, model: Entities::Ping, message: 'Pong' }]
     failure []
-    named 'Ping'
-    headers []
+    named 'GET /Ping'
+    headers %w[
+      Access-Control-Allow-Origin
+      Access-Control-Allow-Methods
+      Access-Control-Expose-Headers
+      Access-Control-Max-Age
+      Content-Type
+      X-Request-Id
+      Vary
+      Content-Encoding
+      Transfer-Encoding
+    ]
     deprecated false
     is_array false
     produces ['application/json']

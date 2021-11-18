@@ -54,6 +54,16 @@ Docker exec:
 docker-compose up
 ```
 
+### Usage with cURL
+
+```bash
+curl --request GET \
+  --url http://localhost:3000/api/v1/ping \
+  --header 'Accept-Encoding: deflate, gzip;q=1.0, *;q=0.5' \
+  --header 'Content-Type: application/json' \
+  --header 'Origin: http://localhost'
+```
+
 ## Contributing
 
 Thank you for thinking about contributing! Contributors are always welcome! :thumbsup:
@@ -105,4 +115,4 @@ bundle exec rake test
 docker-compose run --rm web bundle exec rake test
 ```
 
-Tests are located un der the `test/` folder.
+Tests are located under the `test/` folder.

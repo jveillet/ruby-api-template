@@ -15,12 +15,14 @@ module Middlewares
       status, headers, body = @app.call(env)
       end_time = Time.now
       request_time = request_time_in_ms(start_time, end_time)
+      response = response_body(body, headers)
+      headers['X-Request-Id'] = request_id
 
       @logger.info(
         "request_id=#{request_id} path=#{env['PATH_INFO']} method=#{env['REQUEST_METHOD']} "\
         "host=#{env['HTTP_HOST']} params=#{env['QUERY_STRING']} "\
         "user_agent=#{env['HTTP_USER_AGENT']} remote_address=#{env['REMOTE_ADDR']} "\
-        "request_time=#{request_time}ms status=#{status} message=#{body} "\
+        "request_time=#{request_time}ms status=#{status} message=#{response} "\
         "env=#{rack_env(env)}"
       )
 
@@ -42,6 +44,18 @@ module Middlewares
       return '' unless env['puma.config']&.options
 
       env['puma.config'].options[:environment]
+    end
+
+    def response_body(body, headers)
+      if response_json?(headers)
+        JSON.parse(body.first).to_json
+      else
+        body
+      end
+    end
+
+    def response_json?(headers)
+      headers['Content-Type'] =~ %r{application/json}
     end
   end
 end

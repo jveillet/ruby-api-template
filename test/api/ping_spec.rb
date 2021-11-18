@@ -19,7 +19,7 @@ describe PingController do
   it 'has a status 200 in the body' do
     get '/api/v1/ping'
     response = JSON.parse(last_response.body)
-    assert(response['status'] == 200)
+    assert_equal(200, response['status'])
   end
 
   it 'respond with a message' do
@@ -31,6 +31,6 @@ describe PingController do
   it 'respond with a Pong message' do
     get '/api/v1/ping'
     response = JSON.parse(last_response.body)
-    assert(response['message'] == 'Pong')
+    assert_equal('Pong', response['message'])
   end
 end

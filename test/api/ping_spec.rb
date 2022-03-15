@@ -7,7 +7,7 @@ describe PingController do
 
   it 'respond with a 200 status' do
     get '/api/v1/ping'
-    assert last_response.ok?
+    assert_predicate(last_response, :ok?)
   end
 
   it 'respond with a status' do

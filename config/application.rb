@@ -5,4 +5,4 @@ require 'logger'
 
 require_relative 'boot'
 
-Bundler.require :default, ENV['RACK_ENV']
+Bundler.require :default, ENV.fetch('RACK_ENV', 'development')

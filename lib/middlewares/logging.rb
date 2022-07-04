@@ -19,10 +19,10 @@ module Middlewares
       headers['X-Request-Id'] = request_id
 
       @logger.info(
-        "request_id=#{request_id} path=#{env['PATH_INFO']} method=#{env['REQUEST_METHOD']} "\
-        "host=#{env['HTTP_HOST']} params=#{env['QUERY_STRING']} "\
-        "user_agent=#{env['HTTP_USER_AGENT']} remote_address=#{env['REMOTE_ADDR']} "\
-        "request_time=#{request_time}ms status=#{status} message=#{response} "\
+        "request_id=#{request_id} path=#{env['PATH_INFO']} method=#{env['REQUEST_METHOD']} " \
+        "host=#{env['HTTP_HOST']} params=#{env['QUERY_STRING']} " \
+        "user_agent=#{env['HTTP_USER_AGENT']} remote_address=#{env['REMOTE_ADDR']} " \
+        "request_time=#{request_time}ms status=#{status} message=#{response} " \
         "env=#{rack_env(env)}"
       )
 

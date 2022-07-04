@@ -33,7 +33,7 @@ gem 'rack-cors'
 gem 'rake', '~> 13.0', '>= 13.0.1'
 
 # Zeitwerk implements constant autoloading with Ruby semantics.
-gem 'zeitwerk', '~> 2.5'
+gem 'zeitwerk', '~> 2.6'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console.

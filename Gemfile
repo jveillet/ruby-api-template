@@ -48,7 +48,7 @@ end
 
 group :test do
   # minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking.
-  gem 'minitest', '~> 5.15'
+  gem 'minitest', '~> 5.16'
   # Rack::Test is a small, simple testing API for Rack apps.
   gem 'rack-test', '~> 2.0'
 end

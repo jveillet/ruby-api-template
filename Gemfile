@@ -6,7 +6,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 ruby File.read('.ruby-version').strip
 
 # Loads environment variables from `.env`.
-gem 'dotenv', '~> 2.7', '>= 2.7.6'
+gem 'dotenv', '~> 2.8'
 
 # A Ruby framework for rapid API development with great conventions.
 gem 'grape', '~> 1.6'

@@ -42,7 +42,7 @@ group :development, :test do
   gem 'pry', '~> 0.14.1'
   gem 'rubocop', '~> 1.31.1'
   gem 'rubocop-minitest', require: false
-  gem 'rubocop-performance', '~> 1.14', require: false
+  gem 'rubocop-performance', '~> 1.16', require: false
   gem 'rubocop-rake', require: false
 end
 

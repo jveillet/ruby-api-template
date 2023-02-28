@@ -7,7 +7,7 @@ require 'minitest/autorun'
 require 'rack'
 require 'rack/test'
 
-OUTER_APP = Rack::Builder.parse_file('config.ru').first
+OUTER_APP = Rack::Builder.parse_file('config.ru')
 
 def app
   OUTER_APP

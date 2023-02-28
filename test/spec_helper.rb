@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # Setup our test environment
-ENV['RACK_ENV'] = 'test’'
+ENV['RACK_ENV'] = 'test'
 
 require 'minitest/autorun'
 require 'rack'

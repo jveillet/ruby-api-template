@@ -18,7 +18,7 @@ gem 'grape-entity', '~> 1.0.0'
 gem 'grape-swagger', '~> 1.6'
 
 # Grape swagger adapter to support grape-entity object parsing
-gem 'grape-swagger-entity', '~> 0.5.1'
+gem 'grape-swagger-entity', '~> 0.5.2'
 
 # Use Puma as the app server.
 gem 'puma', '~> 6.3'

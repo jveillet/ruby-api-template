@@ -12,7 +12,7 @@ gem 'dotenv', '~> 3.1'
 gem 'grape', '~> 2.0'
 
 # Extracted from Grape, A Ruby framework for rapid API development with great conventions.
-gem 'grape-entity', '~> 1.0.0'
+gem 'grape-entity', '~> 1.0.1'
 
 # Add auto generated documentation to your Grape API that can be displayed with Swagger.
 gem 'grape-swagger', '~> 2.0'

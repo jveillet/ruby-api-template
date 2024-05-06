@@ -31,7 +31,7 @@ bundle install
 Docker install:
 
 ```bash
-docker-compose build
+docker compose build
 ```
 
 ## Usage
@@ -51,7 +51,7 @@ bundle exec puma -p $PORT # Assuming $PORT is set
 Docker exec:
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 ### Usage with cURL
@@ -111,8 +111,8 @@ Consider adding the [feature request](https://github.com/jveillet/ruby-api-templ
 
 ```bash
 bundle exec rake test
-# OR
-docker-compose run --rm web bundle exec rake test
+# OR
+docker compose run --rm web bundle exec rake test
 ```
 
 Tests are located under the `test/` folder.

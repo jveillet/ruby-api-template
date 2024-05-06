@@ -56,7 +56,7 @@ GEM
       concurrent-ruby (~> 1.0)
     json (2.7.2)
     language_server-protocol (3.17.0.3)
-    method_source (1.0.0)
+    method_source (1.1.0)
     minitest (5.22.3)
     multi_json (1.15.0)
     mustermann (3.0.0)
@@ -64,7 +64,7 @@ GEM
     mustermann-grape (1.0.2)
       mustermann (>= 1.0.0)
     mutex_m (0.2.0)
-    nio4r (2.7.0)
+    nio4r (2.7.1)
     parallel (1.24.0)
     parser (3.3.1.0)
       ast (~> 2.4.1)
@@ -97,8 +97,8 @@ GEM
       rubocop-ast (>= 1.31.1, < 2.0)
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 2.4.0, < 3.0)
-    rubocop-ast (1.31.2)
-      parser (>= 3.3.0.4)
+    rubocop-ast (1.31.3)
+      parser (>= 3.3.1.0)
     rubocop-minitest (0.35.0)
       rubocop (>= 1.61, < 2.0)
       rubocop-ast (>= 1.31.1, < 2.0)
@@ -138,7 +138,7 @@ DEPENDENCIES
   zeitwerk (~> 2.6)
 
 RUBY VERSION
-   ruby 3.3.0p0
+   ruby 3.3.1p55
 
 BUNDLED WITH
-   2.5.6
+   2.5.10

@@ -24,7 +24,7 @@ gem 'grape-swagger-entity', '~> 0.5.4'
 gem 'puma', '~> 6.4'
 
 # Rack provides a minimal, modular and adaptable interface for developing web applications in Ruby.
-gem 'rack', '~> 3.0'
+gem 'rack', '~> 3.1'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible.
 gem 'rack-cors'

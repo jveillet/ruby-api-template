@@ -9,7 +9,7 @@ ruby File.read('.ruby-version').strip
 gem 'dotenv', '~> 3.1'
 
 # A Ruby framework for rapid API development with great conventions.
-gem 'grape', '~> 2.0'
+gem 'grape', '~> 2.1'
 
 # Extracted from Grape, A Ruby framework for rapid API development with great conventions.
 gem 'grape-entity', '~> 1.0.1'

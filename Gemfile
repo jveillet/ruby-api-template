@@ -7,7 +7,7 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 gem 'dotenv', '~> 3.1'
 
 # A Ruby framework for rapid API development with great conventions.
-gem 'grape', '~> 2.1'
+gem 'grape', '~> 2.2'
 
 # Extracted from Grape, A Ruby framework for rapid API development with great conventions.
 gem 'grape-entity', '~> 1.0.1'

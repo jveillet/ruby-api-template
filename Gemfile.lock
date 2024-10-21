@@ -108,7 +108,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
-    zeitwerk (2.6.18)
+    zeitwerk (2.7.1)
 
 PLATFORMS
   x86_64-linux
@@ -131,7 +131,7 @@ DEPENDENCIES
   rubocop-minitest
   rubocop-performance (~> 1.22)
   rubocop-rake
-  zeitwerk (~> 2.6)
+  zeitwerk (~> 2.7)
 
 BUNDLED WITH
    2.5.18

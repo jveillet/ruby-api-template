@@ -37,7 +37,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console.
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Pry is a runtime developer console and IRB alternative with powerful introspection capabilities.
-  gem 'pry', '~> 0.14.1'
+  gem 'pry', '~> 0.15.0'
   gem 'rubocop', '~> 1.68.0'
   gem 'rubocop-minitest', require: false
   gem 'rubocop-performance', '~> 1.23', require: false

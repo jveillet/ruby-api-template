@@ -38,7 +38,7 @@ group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   # Pry is a runtime developer console and IRB alternative with powerful introspection capabilities.
   gem 'pry', '~> 0.15.0'
-  gem 'rubocop', '~> 1.69.1'
+  gem 'rubocop', '~> 1.69.2'
   gem 'rubocop-minitest', require: false
   gem 'rubocop-performance', '~> 1.23', require: false
   gem 'rubocop-rake', require: false

@@ -68,7 +68,7 @@ GEM
     parser (3.3.6.0)
       ast (~> 2.4.1)
       racc
-    pry (0.15.0)
+    pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
     puma (6.5.0)
@@ -123,7 +123,7 @@ DEPENDENCIES
   grape-swagger (~> 2.1)
   grape-swagger-entity (~> 0.5.5)
   minitest (~> 5.25)
-  pry (~> 0.15.0)
+  pry (~> 0.15.2)
   puma (~> 6.5)
   rack (~> 3.1)
   rack-cors

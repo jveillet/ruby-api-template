@@ -60,7 +60,7 @@ GEM
       concurrent-ruby (~> 1.0)
     json (2.9.1)
     language_server-protocol (3.17.0.3)
-    logger (1.6.4)
+    logger (1.6.5)
     method_source (1.1.0)
     minitest (5.25.4)
     multi_json (1.15.0)
@@ -142,4 +142,4 @@ DEPENDENCIES
   zeitwerk (~> 2.7)
 
 BUNDLED WITH
-   2.5.18
+   2.6.2

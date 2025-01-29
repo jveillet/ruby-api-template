@@ -19,7 +19,7 @@ gem 'grape-swagger', '~> 2.1'
 gem 'grape-swagger-entity', '~> 0.5.5'
 
 # Use Puma as the app server.
-gem 'puma', '~> 6.5'
+gem 'puma', '~> 6.6'
 
 # Rack provides a minimal, modular and adaptable interface for developing web applications in Ruby.
 gem 'rack', '~> 3.1'

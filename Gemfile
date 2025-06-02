@@ -28,7 +28,7 @@ gem 'rack', '~> 3.1'
 gem 'rack-cors'
 
 # Rake is a Make-like program implemented in Ruby.
-gem 'rake', '~> 13.2'
+gem 'rake', '~> 13.3'
 
 # Zeitwerk implements constant autoloading with Ruby semantics.
 gem 'zeitwerk', '~> 2.7'

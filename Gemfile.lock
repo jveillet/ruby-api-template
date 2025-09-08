@@ -78,7 +78,7 @@ GEM
     pry (0.15.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    puma (6.6.1)
+    puma (7.0.1)
       nio4r (~> 2.0)
     racc (1.8.1)
     rack (3.2.0)
@@ -138,7 +138,7 @@ DEPENDENCIES
   grape-swagger-entity (~> 0.7.0)
   minitest (~> 5.25)
   pry (~> 0.15.2)
-  puma (~> 6.6)
+  puma (~> 7.0)
   rack (~> 3.2)
   rack-cors
   rack-test (~> 2.2)
